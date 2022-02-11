@@ -25,7 +25,7 @@ app.use(session({
 app.use(passport.initialize());  // setup passport
 app.use(passport.session());  // set passport to manage session
 
-mongoose.connect("mongodb+srv://Jiayuan:Zh3366236~@cluster0.04vkh.mongodb.net/userDB?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://Jiayuan:Zh3366236~@cluster0.04vkh.mongodb.net/userDB")
 // mongoose.connect("mongodb://localhost:27017/userDB");
 
 const userSchema = new mongoose.Schema({
